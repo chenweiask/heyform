@@ -9,6 +9,8 @@ import {
 } from './helper'
 import * as objectPath from 'object-path'
 
+export * from 'fast-equals'
+
 export function pickObject(
   target: Record<string, any>,
   fields: Array<string | string[]>,
